@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffdfd; 
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #d4f70e; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #333333; 
+    box-shadow: 0 0 20px rgba(209, 255, 2, 0.973); 
+    border-radius: 15px; 
+    overflow: hidden;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #575c13; 
+    color: #ccc; 
+}
+
+td {
+    background-color: #444; 
+    color: #d4f70e; /* warna teks header */
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #3a3a3a; /* warna latar belakang baris genap */
+}
+
+tr:hover {
+    background-color: #555; 
+    transition: background-color 0.3s ease-in-out;
+}
+
+img {
+    max-width: 90px; 
+    max-height: 90px; 
+    border-radius: 5px; 
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.2); 
+}
